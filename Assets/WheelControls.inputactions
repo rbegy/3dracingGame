@@ -1,0 +1,94 @@
+{
+    "name": "WheelControls",
+    "maps": [
+        {
+            "name": "Driving",
+            "id": "293c2170-3276-4d80-b4c0-eead4682fe93",
+            "actions": [
+                {
+                    "name": "Steering",
+                    "type": "Value",
+                    "id": "b160d8bb-10f6-4718-939b-82189fe980f9",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Throttle",
+                    "type": "Value",
+                    "id": "32df8647-5922-4151-8993-e5a826eea675",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Brake",
+                    "type": "Value",
+                    "id": "27db201c-19b7-461c-a005-cf88c5212168",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "gear change",
+                    "type": "Value",
+                    "id": "b5e602c3-c7f2-4194-b46d-b0b06a6f09b8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5fb53682-ba10-4767-a3ee-3b31c92cef3c",
+                    "path": "<Joystick>/stick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Steering",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e314811e-5d22-46a0-b62e-4aca5b125f1e",
+                    "path": "<Joystick>/stick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Throttle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c37865d8-7194-4e9a-a66a-371dcb096e14",
+                    "path": "<HID::Logitech G920 Driving Force Racing Wheel for Xbox One>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Brake",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d98a91df-982e-48e5-a7ac-7eab77c7aa21",
+                    "path": "<HID::Logitech G920 Driving Force Racing Wheel for Xbox One>/button5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "gear change",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
